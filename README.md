@@ -1,19 +1,27 @@
 # Portfolio - Resume
+### Introduction
+Developed a personal portfolio page using HTML, CSS, and the jQuery. The page is fully responsive and works on mobile, tablet, and desktop browsers.
+### Features
+* Portfolio Webpage
 
-#####kiparenkomb.github.io/
-#####___|-- css
-#####______|-- media-queries.css
-#####______|-- style.css
-#####___|-- fonts
-#####______|-- Montserrat-Bold.otf
-#####______|-- Montserrat-Regular.otf
-#####___|-- img
-#####______|-- bg
-#####___|-- js
-#####______|-- javascriptEfects.js
-#####______|-- jquery-3.0.0.min.js
-#####___application.php
-#####___index.html
-#####___Resume - Kiparenko Nikolay.pdf
-#####___README.md
-#####index.html This is the main html file, which is inside kiparenkomb.github.io/index.html
+### What's included
+```
+kiparenkomb.github.io/
+    |-- css
+        |-- media-queries.css
+        |-- style.css
+    |-- fonts
+        |-- Montserrat-Bold.otf
+        |-- Montserrat-Regular.otf
+    |-- img
+        |-- bg
+    |-- js
+        |-- javascriptEfects.js
+        |-- jquery-3.0.0.min.js
+    application.php
+    index.html
+    Resume - Kiparenko Nikolay.pdf
+    README.md
+```
+**index.html**
+This is the main html file, which is inside kiparenkomb.github.io/index.html
