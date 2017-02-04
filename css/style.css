@@ -1,29 +1,23 @@
 @font-face {
 	font-family: myFont; 
-	src: url(../fonts/Montserrat-Regular.otf); 
+	src: url(../fonts/Montserrat-Regular.otf);
 }
 @font-face {
 	font-family: myFontBold; 
-	src: url(../fonts/Montserrat-Bold.otf); 
+	src: url(../fonts/Montserrat-Bold.otf);
 }
-
-*{
+* {
 	margin: auto;
 	position: auto;
 	box-sizing: border-box;
-	
 }
-
-#about div{
-	 cursor: pointer;
+#about div {
+	cursor: pointer;
 }
-
-a{
+a {
 	text-decoration: none;
 }
-
-
-#up{
+#up {
 	width: 75px;
 	height: 75px;
 	background-image:url(../img/up-button.png);
@@ -35,14 +29,10 @@ a{
 	opacity: 0.4;
 	transition: 0.2s;
 	display: none;
-	
-	
 }
 
-/*Header------------------------>*/
-
-
-#header-container1,#header-container2,#header-container3{
+/* BEGIN - Header */
+#header-container1,#header-container2,#header-container3 {
 	width: 100%;
 	height: 700px;
 	background: url(../img/bg/8.jpg) no-repeat center;
@@ -50,36 +40,27 @@ a{
 	position: absolute;
 	z-index: 0;
 	background-attachment: fixed;
-	
 }
-#header-container2{
-
+#header-container2 {
 	background: url(../img/bg/5.jpg) no-repeat center;
-
 }
-
-
-#header-container3{
+#header-container3 {
 	background: url(../img/bg/1.jpg) no-repeat center;
-	
 }
-
-
-#header-container{
+#header-container {
 	width: 100%;
 	height: 700px;
 	z-index: 99;
 	background-size: cover;
 }
-#header{
+#header {
 	width: 100%;
 	height: 75px;
 	position: fixed;
 	color: #fff;
 	z-index: 100;
 }
-
-#headerFade{
+#headerFade {
 	width: 100%;
 	height: 75px;
 	position: fixed;
@@ -88,45 +69,34 @@ a{
 	opacity: 0.9;
 	display: none;
 }
-
-.logo{
-	
+.logo {
 	float: left;
 	width: auto;
 	font-family: myFontBold;
 	margin-left: 100px;
 	margin-top: 20px;
 	letter-spacing: 4px;
- 
 }
-
-.menu-con{
+.menu-con {
 	margin-top: 20px;
 	float: right;
 	margin-right: 100px;
 }
-
-.menu-con #menu li{
+.menu-con #menu li {
 	float: left;
 	list-style: none;
 	font-family: myFont;
 	margin-right: 30px;
 	font-size: 1.4em;
-	 
 }
-.menu-con #menu li a{
+.menu-con #menu li a {
 	color: #fff; 
 	font-family: myFontBold;
 	transition: 0.4s;
 }
 
-
-
-
-/*Title------------------------>*/
-
-.title{
-	
+/* BEGIN - Title */
+.title {
 	color: #fff;
 	font-family: myFontBold;
 	position: relative;
@@ -135,13 +105,8 @@ a{
 	margin: 0;
 	top: 30%;
 	cursor: pointer;
-	 
-	 
 }
-
-
-.title h1{
-	
+.title h1 {
 	color: #ffffff;
 	padding-top: 10px;
 	padding-bottom: 20px;
@@ -149,14 +114,12 @@ a{
 	font-size: 80px;
 	font-weight: bold;
 }
-
-.title h4{  
+.title h4 { 
 font-size: 18px;
 font-weight: 400;
-	 transition: 1s; 
+	transition: 1s;
 }
-.title a{
-	
+.title a {
 	color: #FFF;
 	background: #00B6AE;
 	font-family: myFontBold;
@@ -168,21 +131,13 @@ font-weight: 400;
 	transition: 0.2s;
 }
 
-
-
-
-
-/*About------------------------>*/
-
-
-
-#about{
+/* BEGIN - About */
+#about {
 	overflow: hidden;
 	width: 100%;
 	padding-top: 50px;
 }
-
-.title-about{
+.title-about {
 	text-align: center;
 	font-size: 1.4em;
 	position: relative;
@@ -192,17 +147,12 @@ font-weight: 400;
 	font-family: myFontBold;
 	border-bottom: 7px solid #00B6AE;
 	letter-spacing: 4px;
-	 
-	
 }
-
-#about-con{
+#about-con {
 	width:900px;
 	height: 500px;
-	
 }
-
-.left,.center,.right{
+.left,.center,.right {
 	margin-top: 50px;
 	width: 300px;
 	height: 400px;
@@ -211,44 +161,34 @@ font-weight: 400;
 	color: #4a4a4a;
 	font-size: 1.5em;
 	text-align: right;
-	 
-	
 }
-
- span{
+ span {
 	float: right; 
-
 }
-.sp{
+.sp {
 	float:left;
 	margin-right: 20px;
-
 }
-#name,#bd,#ad,#ph{
+#name,#bd,#ad,#ph {
 	margin-bottom: 70px;
-	 
 }
-
-.left,.right{
+.left,.right {
 	padding-top: 40px;
 }
- p{
-	 font-family: myFont; 
+p {
+	font-family: myFont; 
 	font-size: 0.8em;
 }
-
-
-#name,#bd,#bp h3,p{
+#name,#bd,#bp h3,p {
 	float: left;
 }
-#ad,#ph,#ml h3,p{
+#ad,#ph,#ml h3,p {
 	float: right;
-
 }
 #ml p {
 	font-size: 0.6em;
 }
-#ml h3{
+#ml h3 {
 	float: left;
 }
 .textMe {
@@ -259,7 +199,7 @@ font-weight: 400;
 	float: none;
 }
 
-/* BEGIN - hover-effect */
+/* BEGIN - BEGIN - hover-effect */
 .ih-item {
 	position: relative;
 	-webkit-transition: all 0.35s ease-in-out;
@@ -371,25 +311,20 @@ font-weight: 400;
 	-o-transform: translateY(50px) scale(0.5);
 	transform: translateY(50px) scale(0.5);
 }
-/* END - hover-effect */
+/* BEGIN - END - hover-effect */
 
 
-/* BEGIN - Skills */
-#skills-container div{
+/* BEGIN - BEGIN - Skills */
+#skills-container div {
 	cursor: pointer;
 }
-
-
-#skills-container{
+#skills-container {
 	width: 100%;
 	overflow: hidden;
 	background: #fafafa;
 	padding-top: 50px;
-
-	
-	 
 }
-.skills-title{
+.skills-title {
 	top: 50px;
 	text-align: center;
 	font-size: 1.4em;
@@ -402,30 +337,22 @@ font-weight: 400;
 	padding-bottom: 20px;
 	margin-bottom: 50px;
 }
-	
-.skills-title h4{
+.skills-title h4 {
 	padding-top: 20px;
 	font-size: 1.0em;
 	font-family: myFont;
-} 
-	
-.skills-block{
+}
+.skills-block {
 	width:625px;
 	height:400px;
-	 
 }
-.elemet-skill{
+.elemet-skill {
 	height: 150px;
 	width:310px;
 	float: left;
 	padding: 10px;
-	
-	
 }
-
-
-
-.skill1,.skill2,.skill3,.skill4,.skill5,.skill6{
+.skill1,.skill2,.skill3,.skill4,.skill5,.skill6 {
 	width: 80px;
 	height: 110px;
 	margin-top: 30px;
@@ -433,93 +360,68 @@ font-weight: 400;
 	background-size: 60px 83px;
 	background-repeat: no-repeat;
 	float:left;
-	
 }
-
-
-.skill1{
-	 background-image: url(../img/html.png);
-	
+.skill1 {
+	background-image: url(../img/html.png);
 }
-
-.skill2{
-	 background-image: url(../img/jq.png);
-	
+.skill2 {
+	background-image: url(../img/jq.png);
 }
-
-.skill3{
-	
+.skill3 {
 	background-image: url(../img/css.png);
-	 
 }
-
-
-.skill4{
-	 background-image: url(../img/wp.png);
-	
+.skill4 {
+	background-image: url(../img/wp.png);
 }
-
-.skill5{
-	 
+.skill5 {
 	background-image: url(../img/js.png);
-	 
 }
-
-.skill6{
-	 background-image: url(../img/ps.png);
-	
+.skill6 {
+	background-image: url(../img/ps.png);
 }
-
-	
-.skill-text  {
-	 font-size: 1.0em;
+.skill-text {
+	font-size: 1.0em;
 	font-family: myFont;
-	 margin-top: 50px;
+	margin-top: 50px;
 	text-align: center;
-	 color: #4a4a4a;
+	color: #4a4a4a;
 }
 
-/*Works------------------------------------------------------------------->*/
-
-#works div{
+/* BEGIN - Works */
+#works div {
 	cursor: pointer;
 }
-
-#works{
+#works {
 	background-image: url(../img/bg/FSPLFPQBCZ.jpg);
 	background-size: cover;
 	padding-top: 30px;
 	background-attachment: fixed;
 	position: relative;
-}   
-	#overlay{
-		width: 100%;
-		height: 100%;
-		background: rgba(0,182,174,0.8);
-		position: absolute;
-		top:0px;
 }
-	
-.work{
+#overlay {
+	width: 100%;
+	height: 100%;
+	background: rgba(0,182,174,0.8);
+	position: absolute;
+	top:0px;
+}
+.work {
 	width: 800px;
 	height: 300px;
 	padding-top: 20px;
-/*    padding-bottom: 20px;*/
-}
 
-.work-img{
+/* BEGIN - adding-bottom: 20px;*/
+}
+.work-img {
 	width: 500px;
 	height: 300px;
 	float: left;
-	
 }
-	
-.work-img img{
+.work-img img {
 	width: 400px;
 	height: 240px;
 }
-
-.work-txt{
+.work-txt {
 	width: 300px;
 	height: 300px;
 	text-align: left;
@@ -528,20 +430,16 @@ font-weight: 400;
 	float: left;
 	padding-top: 20px;
 	color: #4a4a4a;
-	
 }
-.work-txt h3{
-	 font-family: myFontBold;
-	 color: #fff;
-/*     padding-bottom: 15px;*/
-	 font-size: 2em;
+.work-txt h3 {
+	font-family: myFontBold;
+	color: #fff;
+	font-size: 2em;
 }
-.work-txt p{
- float: left;   
+.work-txt p {
+	float: left;
 }
-	
-#works-title{
-	
+#works-title {
 	width: 200px;
 	text-align: center;
 	font-size: 1.4em;
@@ -552,12 +450,8 @@ font-weight: 400;
 	letter-spacing: 4px;
 	position: relative;
 	margin-bottom: 75px;
-	
-	
-}      
-	
-.work-txt a{
-	
+}
+.work-txt a {
 	color: #4a4a4a;
 	background: #FFF;
 	font-family: myFontBold;
@@ -567,27 +461,19 @@ font-weight: 400;
 	display: inline-block;
 	border-radius: 4px;
 	transition: 0.2s;
-	 
 }
 
-
-
-/*CONTACT------------------------------------------------------>*/
-
-#contact div{
+/* BEGIN - CONTACT */
+#contact div {
 	cursor: pointer;
 }
-
-#contact{
-	
+#contact {
 	height: 700px;
 	width: 900px;
 	padding-top: 50px;
 	position: relative;
-	
 }
-
-#contact-title{
+#contact-title {
 	width: 250px;;
 	text-align: center;
 	font-size: 1.4em;
@@ -596,44 +482,38 @@ font-weight: 400;
 	color: #4a4a4a;
 	font-family: myFontBold;
 	border-bottom: 7px solid #00B6AE;
-	letter-spacing: 4px;   
+	letter-spacing: 4px;
 }
-
-.block-form,.block-left{
+.block-form,.block-left {
 	float: left;
 	margin-top: 50px;
 	width: 400px;
-	
 }
-
-#contact input{
-	 font-size: 1.4em;
+#contact input {
+	font-size: 1.4em;
 	font-family: myFont;
-	 border: none;
-	 margin-left: 10px;
+	border: none;
+	margin-left: 10px;
 	padding-bottom: 20px;
-	 display:inline
+	display:inline
 }
 #contact input:focus, #contact textarea:focus, keygen:focus, select:focus {
-    outline: none;
+	outline: none;
 }
-.form-email,.form-message,.form-name{
+.form-email,.form-message,.form-name {
 	margin-top: 30px;
 	border-bottom: 3px solid #00B6AE;
 }
-
-
-#contact label{
+#contact label {
 	color: #4a4a4a;
 	font-size: 1.4em;
 	font-family: myFont;
 }
-
-#contact textarea{
+#contact textarea {
 	border: none;
 }
 #contact button {
-	 border: none;
+	border: none;
 	color: #FFF;
 	background: #00B6AE;
 	font-family: myFontBold;
@@ -644,263 +524,186 @@ font-weight: 400;
 	border-radius: 4px;
 	transition: 0.2s;
 	cursor: pointer;
-	
 }
-
-#contact button:hover{
+#contact button:hover {
 	background: #23938e;
 	font-size: 1.2em;
 }
-textarea{
+textarea {
 	width: 400px;
 	resize: none;
-	 font-size: 1.4em;
+	font-size: 1.4em;
 	font-family: myFont;
 }
-
-#contact img{
+#contact img {
 	width: 36px;
 	height: 36px;
 }
-
-.block-left{
+.block-left {
 	margin-left: 100px;
 	margin-top: 100px;
 	float: right;
-
 }
-.left-el{
+.left-el {
 	width: 320px;
 	float: left;
 	margin-bottom: 40px;
 	padding: 3px;
 }
-
-.block-left img{
+.block-left img {
 	margin-right: 20px; 
 	border-radius: 50px;
 	border: 3px solid #00B6AE;
 	width: 100px;
 	height: 100px;
 }
-
-
-.block-left img,h3{
+.block-left img,h3 {
 	float: left;
 	line-height: 2;
 	font-family: myFont;
 	color: #4a4a4a;
-	
 }
 
-
-/*FOOTER--------------------------------------------------->*/
-
-
-
-#footer{
+/* BEGIN - FOOTER */
+#footer {
 	background-image: url(../img/gif.gif);
 	height: 100px;
 	margin-top: 130px;
 	text-align: center;
 	position: relative;
 }
-#overlay2{
-	
+#overlay2 {
 	width: 100%;
 	height: 100%;
 	background: rgba(74,74,74,0.8);
 	position: absolute;
 	top: 0;
 }
-#footer a{
+#footer a {
 	color: #fff;
 	font-size: 1em;
 	font-family: myFont;
 	position: relative;
 	top: 40px;
-	
 }
 
-/*EFECTS------------------------------------------------>*/
-
-
-/*Header*/
-
-
-/*
-.menu-con #menu li a:hover{
-	color: #00B6AE;
-	font-size: 1.2em; 
-}
-*/
-
-/*Title button*/
-
-
-.title a:hover{
+/* BEGIN - Title button */
+.title a:hover {
 	background: #23938e;
 	font-size: 1.2em;
 }
 
-/*Button SEE*/
-
-
-
-.work-txt a:hover{
+/* BEGIN - Button SEE */
+.work-txt a:hover {
 	font-size: 1.2em;
 	box-shadow: -11px 7px 16px 1px
 }
 
-/*Button SENT*/
-
-
-
-#contact button:hover{
+/* BEGIN - Button SENT */
+#contact button:hover {
 	background: #23938e;
 	font-size: 1.2em;
 }
-
-#up:hover{
+#up:hover {
 	width: 80px;
 	height: 80px;
 	opacity: 1;
-	
 }
-
-
-.elements-move{
+.elements-move {
 	transition: 0.5s;
 }
-.elements-move:hover{
+.elements-move:hover {
 	padding-left: 9px;
-	 padding-right: 9px;
-	 
-	
+	padding-right: 9px;
 }
-
-.title-about{
+.title-about {
 	transition: 0.5s;
 }
-.title-about:hover{
+.title-about:hover {
 	width: 250px;
 	letter-spacing: 10px;
-	
-	
 }
-
-/* .center img{
+.skills-title { 
 	transition: 1s;
-} */
-/* .center img:hover{
-	transform: rotateY(180deg);
-} */
-
-
-.skills-title{ 
-	transition: 1s;}
-
-.skills-title:hover{
+}
+.skills-title:hover {
 	width: 600px;
 	letter-spacing: 10px;
 }
-
-.elemet-skill{
+.elemet-skill {
 	transition: 0.5s;
 }
-.elemet-skill:hover{
-
-
+.elemet-skill:hover {
 	border-radius: 15px;
 	box-shadow:
- 0 1px 4px rgba(0, 0, 0, .3),
-	 -23px 0 20px -23px rgba(0, 0, 0, .8),
-	 23px 0 20px -23px rgba(0, 0, 0, .8),
-	 0 0 40px rgba(0, 0, 0, .1) inset;
-	
+	0 1px 4px rgba(0, 0, 0, .3),
+	-23px 0 20px -23px rgba(0, 0, 0, .8),
+	23px 0 20px -23px rgba(0, 0, 0, .8),
+	0 0 40px rgba(0, 0, 0, .1) inset;
 }
-
-#works-title{
+#works-title {
 	transition: 1s;
 }
-#works-title:hover{
+#works-title:hover {
 	width: 250px;
 	letter-spacing: 10px;
 }
-
-.work-img img{
+.work-img img {
 	transition: 1s;
 }
-
-.work-img img:hover{
+.work-img img:hover {
 	transform: scale(1.3);
 }
-
-#contact-title{
+#contact-title {
 	transition: 1s;
 }
-#contact-title:hover{
+#contact-title:hover {
 	width: 300px;
 	letter-spacing: 10px;
 }
-
-.left-el{
+.left-el {
 	transition: 0.5s;
 }
-
-
-.left-el:hover{
+.left-el:hover {
 	box-shadow:
-	 0 1px 4px rgba(0, 0, 0, .3),
-	 -23px 0 20px -23px rgba(0, 0, 0, .8),
-	 23px 0 20px -23px rgba(0, 0, 0, .8),
-	 0 0 40px rgba(0, 0, 0, .1) inset;
-	
+	0 1px 4px rgba(0, 0, 0, .3),
+	-23px 0 20px -23px rgba(0, 0, 0, .8),
+	23px 0 20px -23px rgba(0, 0, 0, .8),
+	0 0 40px rgba(0, 0, 0, .1) inset;
 	border-radius: 7px;
 }
-
-
-
-#sorry{
+#sorry {
 	width: 100%;
 	height: 100%;
 	position:fixed;
 	display: none;
 	background: rgba(74,74,74,0.9);
 	z-index: 9999;
-/*    opacity: 0.9;*/
 	top:0px;
-	 
-	
 }
-
-#sorryBlock{
-	
+#sorryBlock {
 	width: 400px;
 	height: 250px;
 	color: #fff;
 	background: #00B6AE;
-	 box-shadow:
-	 0 1px 4px rgba(0, 0, 0, .3),
-	 -23px 0 20px -23px rgba(0, 0, 0, .8),
-	 23px 0 20px -23px rgba(0, 0, 0, .8),
-	 0 0 40px rgba(0, 0, 0, .1) inset;
-	
+	box-shadow:
+	0 1px 4px rgba(0, 0, 0, .3),
+	-23px 0 20px -23px rgba(0, 0, 0, .8),
+	23px 0 20px -23px rgba(0, 0, 0, .8),
+	0 0 40px rgba(0, 0, 0, .1) inset;
 	border-radius: 7px;
 	margin-top: 12.5%;
 	padding-top: 50px;
 	z-index: 99999;
 	display: none;
 }
-
-#sorry h1{
+#sorry h1 {
 	text-align: center;
 	font-family: myFont;
 	color: #4a4a4a;
 	font-size: 50px;
-	 
 }
-#sorryBlock p{
+#sorryBlock p {
 	text-align: center;
 	font-family: myFont;
 	color: #fff;
@@ -908,15 +711,4 @@ textarea{
 	margin-top: 30px;
 	float: none;
 	margin: auto;
-	
 }
-
-/*
-#sorryBlock span{
-	font-family: myFont;
-	color: #fff;
-	position: relative;
-	top:-45px;
-	right: 7px;
-}
-*/
