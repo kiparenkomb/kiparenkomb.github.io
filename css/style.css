@@ -313,7 +313,6 @@ p.italic {
 }
 .section-wrapper .skill-percentage {
 	margin-bottom: 10px;
-	margin-right: 20px;
 	position: relative;
 }
 .section-wrapper .skill-percentage::after {
